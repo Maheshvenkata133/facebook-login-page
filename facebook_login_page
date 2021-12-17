@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <title>Facebook - login or sign up</title>
+</head>
+
+<body>
+     <div class="form-container">
+          <h1>Facebook</h1>
+          <form method="post">
+               <div class="email-container input">
+                    <input type="text" name="email" autofocus="1" placeholder="Email address or phone number">
+               </div>
+               <div class="password-container input">
+                    <input type="password" name="password" placeholder="Password">
+                    <i class="fa fa-eye-slash" aria-hidden="true"></i>
+               </div>
+               <div class="submit-container input">
+                    <input type="submit" name="submit" value="Log In">
+               </div>
+               <div class="forgot-password-container input">
+                    <a href="#">Forgotten password?</a>
+               </div>
+               <button class="create-new input">Create New Account</button>
+          </form>
+          <p><strong>Create a Page</strong> for a celebrity, brand or business.</p>
+     </div>
+     <footer>
+          <div class="wrapper">
+               <div class="language-section">
+                    <label>English</label>
+                    <label>हिन्दी</label>
+                    <label>اردو</label>
+                    <label>தமிழ்</label>
+                    <label>বাংলা</label>
+                    <label>मराठी</label>
+                    <label>తెలుగు</label>
+                    <label>ગુજરાતી</label>
+                    <label>ಕನ್ನಡ</label>
+                    <label>മലയാളം</label>
+                    <label>Español</label>
+                    <button>+</button>
+               </div>
+               <div class="navigation">
+                    <label class="menu">Sign Up</label>
+                    <label class="menu">Log in</label>
+                    <label class="menu">Messenger</label>
+                    <label class="menu">Facebook</label>
+                    <label class="menu">Lite</label>
+                    <label class="menu">Watch</label>
+                    <label class="menu">Places</label>
+                    <label class="menu">Games</label>
+                    <label class="menu">Market place</label>
+                    <label class="menu">Facebook Pay</label>
+                    <label class="menu">Jobs</label>
+                    <label class="menu">Oculus</label>
+                    <label class="menu">Portal</label>
+                    <label class="menu">Instagram</label>
+                    <label class="menu">Bulletin</label>
+                    <label class="menu">Local</label>
+                    <label class="menu">Fundraisers</label>
+                    <label class="menu">Services</label>
+                    <label class="menu">Voting</label>
+                    <label class="menu">Information</label>
+                    <label class="menu">Groups</label>
+                    <label class="menu">About</label>
+                    <label class="menu">Create Page</label>
+                    <label class="menu">Create add</label>
+                    <label class="menu">Developers</label>
+                    <label class="menu">Careers</label>
+                    <label class="menu">Privacy</label>
+                    <label class="menu">Cookies</label>
+                    <label class="menu">Terms</label>
+                    <label class="menu">Help</label>
+                    <label class="menu">Settings</label>
+               </div>
+          </div>
+     </footer>
+
+</body>
+
+</html>
